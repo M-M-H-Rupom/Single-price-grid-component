@@ -11,16 +11,20 @@ body{
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    width : 100% ;
     background-color:hsl(204, 43%, 93%);
 
 }
 .main{
     width: 360px;
+    margin : 2.5rem 0 ;
+    
 }
  .main .first-div{
   background-color: white;
   padding: 0 2rem;
   text-align: start;
+  border-radius: 5px 5px 0 0 ;
 }
 .main .second-div{
     background-color: hsl(179, 62%, 43%);
@@ -37,6 +41,7 @@ body{
     background-color: hsl(178, 36%, 58%);
     padding: 0 2rem;
     color: white;
+    border-radius: 0 0 5px 5px;
   }
   .main h3{
     padding: 1.5rem 0;
